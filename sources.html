@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja" data-title-ja="素材の出典と答えの確かめ方 - 譜読みカード" data-title-en="Credits - Note Reading">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>(function(){var l=navigator.languages&&navigator.languages.length?navigator.languages:[navigator.language||"ja"],p="en";for(var i=0;i<l.length;i++){var c=String(l[i]).toLowerCase();if(c.indexOf("ja")===0){p="ja";break}if(c.indexOf("en")===0){p="en";break}}var d=document.documentElement;d.lang=p;var t=d.getAttribute("data-title-"+p);if(t){document.title=t}})();</script>
+<title>素材の出典と答えの確かめ方 - 譜読みカード</title>
+<meta name="description" content="譜読みカードのピアノの音（アイオワ大学の録音）・楽譜の書体（Bravura）と、答えの確かめ方（music21 との照合）。 / Note Reading&#x27;s piano sounds (University of Iowa recordings), music font (Bravura), and how answers were checked against music21.">
+<meta property="og:title" content="素材の出典と答えの確かめ方 - 譜読みカード">
+<meta property="og:description" content="譜読みカードのピアノの音（アイオワ大学の録音）・楽譜の書体（Bravura）と、答えの確かめ方（music21 との照合）。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://fuyomi.tsuzukit.com/sources.html">
+<meta property="og:image" content="https://fuyomi.tsuzukit.com/assets/og.jpg">
+<link rel="icon" href="assets/icon.png">
+<link rel="apple-touch-icon" href="assets/icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div data-l="ja" lang="ja">
+<header class="site"><div class="wrap">
+<a class="brand" href="./"><img src="assets/icon.png" alt="" width="32" height="32">譜読みカード</a>
+<nav class="site"><a href="./">紹介</a><a href="support.html">使い方</a><a href="sources.html">出典</a><a href="privacy.html">プライバシー</a></nav>
+</div></header>
+<main class="wrap">
+<article class="doc">
+<p class="eyebrow">CREDITS</p>
+<h1>素材の出典と、答えの確かめ方</h1>
+<h2>ピアノの音</h2>
+<p>アイオワ大学 電子音楽スタジオの楽器の録音（<a href="https://theremin.music.uiowa.edu/MIS.html">University of Iowa Electronic Music Studios — Musical Instrument Samples</a>）の、ピアノの88鍵それぞれの録音を使っています。この録音は、どんな作品にも制限なく使ってよいと公開されています。</p>
+<p>このアプリでは、次のように整えました。</p>
+<ul>
+<li>鳴り始め（音が大きくなる所）の10ミリ秒前から2.4秒に切り、最後の0.5秒で消す</li>
+<li>鳴り始めから0.3秒の大きさをそろえる（鍵によって大きさがちがうと、音程・和音の聞き取りがずれるため）</li>
+<li>88鍵ぜんぶを、倍音の並び（1オクターブ上の録音なら3倍・5倍の倍音が無い）で確かめ、その鍵の高さであることを確かめた。いちばん上の G7〜C8 の6鍵は録音が46〜76セント低かったので、ほかの鍵の調律に合わせて高さを直した</li>
+<li>高さをずらして別の鍵の音を作ることはしていません（どの鍵も、その鍵の録音です）</li>
+</ul>
+<h2>楽譜の書体</h2>
+<p>音部記号・音符・休符・臨時記号・強弱記号などは、Steinberg の書体 <a href="https://github.com/steinbergmedia/bravura">Bravura</a> で描いています。Bravura は <a href="https://openfontlicense.org">SIL Open Font License 1.1</a> で公開されています。Copyright © 2026, Steinberg Media Technologies GmbH, with Reserved Font Name "Bravura". 記号の並べ方は、楽譜の書体の決まり <a href="https://w3c.github.io/smufl/latest/">SMuFL</a>（W3C）の寸法に従いました。</p>
+<h2>答えの確かめ方</h2>
+<ul>
+<li>音程（672件）・和音（210件）・調（30調）・音階（210件）・調の中の和音の答えは、アプリとは別の作りの音楽理論のライブラリ <a href="https://web.mit.edu/music21/">music21</a> が出した答えと、全部を突き合わせて確かめました。全音音階は決まったつづりが無いので、音の高さで比べています</li>
+<li>短調の七の和音のうち、自然短音階で取るか和声短音階で取るかで答えが分かれるもの（Ⅰ7・Ⅲ7）は、出題していません</li>
+<li>記号と用語（153語）の意味は、作った係とは別の係が、答えを見ずに意味を書いて突き合わせました。食いちがったものは、楽典の本と辞典で1つずつ決めました</li>
+</ul>
+</article>
+</main>
+<footer class="site"><div class="wrap">
+<p><a href="./">紹介</a><a href="support.html">使い方とお問い合わせ</a><a href="sources.html">素材の出典</a><a href="terms.html">利用規約</a><a href="privacy.html">プライバシーポリシー</a></p>
+<p>譜読みカードは、個人開発者の續橋涼（TsuzuKit）が作っているアプリです。学校・教室・出版社・検定の公式アプリではありません。</p>
+<p>© 2026 TsuzuKit</p>
+</div></footer>
+</div>
+<div data-l="en" lang="en">
+<header class="site"><div class="wrap">
+<a class="brand" href="./"><img src="assets/icon.png" alt="" width="32" height="32">Note Reading</a>
+<nav class="site"><a href="./">About</a><a href="support.html">Help</a><a href="sources.html">Credits</a><a href="privacy.html">Privacy</a></nav>
+</div></header>
+<main class="wrap">
+<article class="doc">
+<p class="eyebrow">CREDITS</p>
+<h1>Credits and how answers were checked</h1>
+<h2>Piano sounds</h2>
+<p>The piano uses the University of Iowa Electronic Music Studios' <a href="https://theremin.music.uiowa.edu/MIS.html">Musical Instrument Samples</a> — a separate recording for each of the 88 keys. The recordings are published for use in any project without restrictions.</p>
+<p>For this app we:</p>
+<ul>
+<li>Trimmed each note to start 10 ms before its attack and last 2.4 s, fading out over the last 0.5 s</li>
+<li>Matched the loudness of the first 0.3 s across keys (uneven loudness throws off interval and chord listening)</li>
+<li>Checked all 88 keys against their harmonics (a recording an octave too high has no 3rd or 5th harmonic) to confirm each is the right key. The top six keys, G7 to C8, were 46–76 cents flat in the recordings, so we retuned them to match the rest of the piano</li>
+<li>Never pitch-shifted one key to make another — every key is its own recording</li>
+</ul>
+<h2>Music font</h2>
+<p>Clefs, notes, rests, accidentals, dynamics and other symbols are drawn with Steinberg's <a href="https://github.com/steinbergmedia/bravura">Bravura</a> font, released under the <a href="https://openfontlicense.org">SIL Open Font License 1.1</a>. Copyright © 2026, Steinberg Media Technologies GmbH, with Reserved Font Name "Bravura". Symbol placement follows the dimensions of the W3C's <a href="https://w3c.github.io/smufl/latest/">SMuFL</a> standard.</p>
+<h2>How answers were checked</h2>
+<ul>
+<li>Intervals (672), chords (210), keys (30), scales (210) and diatonic chords were all compared with the answers from <a href="https://web.mit.edu/music21/">music21</a>, a music theory library built independently of this app. Whole-tone scales have no fixed spelling, so they're compared by pitch</li>
+<li>Minor-key seventh chords whose answer depends on whether you use the natural or harmonic minor (i7 and III7) are not asked</li>
+<li>The meanings of signs and terms (153) were written again by a second reviewer without seeing the answers, then compared. Any disagreements were settled one by one using theory books and dictionaries</li>
+</ul>
+</article>
+</main>
+<footer class="site"><div class="wrap">
+<p><a href="./">About</a><a href="support.html">Help & Contact</a><a href="sources.html">Credits</a><a href="terms.html">Terms of Use</a><a href="privacy.html">Privacy Policy</a></p>
+<p>Note Reading is made by Ryo Tsuzukihashi, an independent developer (TsuzuKit). It is not an official app of any school, publisher or exam.</p>
+<p>© 2026 TsuzuKit</p>
+</div></footer>
+</div>
+</body>
+</html>
